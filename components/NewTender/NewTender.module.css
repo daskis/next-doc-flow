@@ -1,0 +1,33 @@
+.wrapper {
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.form {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "input input"
+            "input input"
+            "label label"
+            "btn btn";
+    gap: 30px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    grid-area: label;
+}
+
+.input {
+    grid-area: input;
+}
+
+.btn {
+    grid-area: btn;
+}

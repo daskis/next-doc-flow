@@ -1,0 +1,26 @@
+:root {
+    --primary: #186ADE;
+    --primary-light: #3D8DF5;
+    --primary-extralight: #D4E4FA;
+    --primary-dark: #0D4EA6;
+    --gray: #f5f5f5;
+    --gray-light: #F4F7FB;
+    --black: #252525;
+    --white: #fff;
+}
+body {
+    background-color: var(--gray);
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}

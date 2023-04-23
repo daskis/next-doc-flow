@@ -1,0 +1,14 @@
+.p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 130%;
+}
+.small {
+    font-size: 14px;
+    opacity: 70%;
+}
+.medium {
+    font-size: 16px;
+}
+.large {
+    font-size: 18px;
+}

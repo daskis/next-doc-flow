@@ -1,0 +1,18 @@
+.a {
+    font-weight: 500;
+    line-height: 120%;
+    color: var(--primary);
+    transition: 0.3s all;
+}
+.a:hover {
+    color: var(--primary-dark);
+}
+.small {
+    font-size: 12px;
+}
+.small {
+    font-size: 14px;
+}
+.small {
+    font-size: 16px;
+}

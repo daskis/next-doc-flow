@@ -1,0 +1,43 @@
+.btn {
+    cursor: pointer;
+    color: black;
+    transition: 0.3s all;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.primary {
+    color: var(--white);
+    background: var(--primary);
+    border: 1px solid var(--primary);
+}
+.primary:hover {
+    background: var(--primary-dark);
+}
+.small {
+    font-size: 10px;
+    line-height: 130%;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+.medium {
+    font-size: 14px;
+    line-height: 130%;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+.large {
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 500;
+    padding: 14px 32px;
+}
+.secondary {
+    color: var(--black);
+    border: 1px solid var(--black);
+    background: var(--white);
+
+}
+.secondary:hover {
+    box-shadow: 0 0 5px 2px var(--primary-extralight);
+
+}

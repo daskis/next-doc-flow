@@ -1,0 +1,5 @@
+.cardList {
+    background-color: var(--white);
+    padding: 30px 40px;
+    border-radius: 10px;
+}

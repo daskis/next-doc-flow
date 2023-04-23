@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color: var(--gray-light);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn {
+    padding: 12px 30px;
+}

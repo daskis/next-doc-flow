@@ -1,0 +1,43 @@
+.nav {
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+}
+.container {
+    max-width: 1160px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper {
+    background-color: var(--white);
+}
+.links {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+.auth {
+    display: flex;
+    gap: 15px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 50%;
+    transform: translateY(-10px);
+}
+.newTender {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--white);
+    transition: 0.3s all;
+}
+.newTender:hover {
+    background-color: var(--primary-dark);
+}
