@@ -1,6 +1,6 @@
 import React from 'react';
 import CardList from "@/components/CardList/CardList";
-export async function getServerSideProps() {
+export async function getStaticProps() {
     // Call an external API endpoint to get posts.
     // You can use any data fetching library
     const res = await fetch('http://10.2.0.64:8000/api/contracts/')
